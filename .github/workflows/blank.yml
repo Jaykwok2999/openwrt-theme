@@ -38,7 +38,7 @@ jobs:
         
         
          
-        git clone https://github.com/sbwml/luci-theme-argon.git ./tmp
+        git clone https://github.com/zijieKwok/openwrt-theme.git ./tmp
         mv ./tmp/* ./
         rm -rf ./tmp
         
