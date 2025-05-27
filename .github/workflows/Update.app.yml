@@ -34,12 +34,12 @@ jobs:
     - name: Update
       run: |
 
-        rm -rf ./luci-theme-argon/htdocs/luci-static/argon/img/argon.svg
+        rm -rf luci-theme-argon/htdocs/luci-static/argon/img/argon.svg
         
         
          
         # git clone https://github.com/zijieKwok/istoreos-app.git ./tmp
-        # mv ./tmp/* ./
+        cp -rf .github/workflows/argon.svg luci-theme-argon/htdocs/luci-static/argon/img/argon.svg
         # rm -rf ./tmp
         
         
