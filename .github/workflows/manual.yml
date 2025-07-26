@@ -42,6 +42,12 @@ jobs:
         git clone https://github.com/Jaykwok2999/istoreos-theme.git ./tmp
         mv ./tmp/* ./
         rm -rf ./tmp
+        rm -rf luci-theme-argon/htdocs/luci-static/argon/icon
+        cp -af .github/argon/icon luci-theme-argon/htdocs/luci-static/argon/
+        rm -rf luci-theme-argon/htdocs/luci-static/argon/img
+        cp -af .github/argon/img luci-theme-argon/htdocs/luci-static/argon/
+        rm -rf luci-theme-argon/htdocs/luci-static/argon/favicon.ico
+        cp -af .github/argon/favicon.ico luci-theme-argon/htdocs/luci-static/argon/
         
         
         
