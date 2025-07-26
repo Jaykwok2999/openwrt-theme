@@ -38,9 +38,9 @@ jobs:
         
         
          
-        git clone https://github.com/Jaykwok2999/istoreos-theme.git ./tmp
-        mv ./tmp/* ./
-        rm -rf ./tmp
+        #git clone https://github.com/Jaykwok2999/istoreos-theme.git ./tmp
+        #mv ./tmp/* ./
+        #rm -rf ./tmp
         
         
         
