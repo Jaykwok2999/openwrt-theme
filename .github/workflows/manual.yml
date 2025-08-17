@@ -39,7 +39,7 @@ jobs:
         
         
          
-        git clone https://github.com/Jaykwok2999/istoreos-theme.git ./tmp
+        git clone https://github.com/sbwml/luci-theme-argon.git ./tmp
         mv ./tmp/* ./
         rm -rf ./tmp
         rm -rf luci-theme-argon/htdocs/luci-static/argon/icon
