@@ -35,12 +35,12 @@ jobs:
     - name: Update
       run: |
 
-        rm -rf ./*
+        rm -rf ./luci-theme-argon
         
         
          
-        git clone https://github.com/sbwml/luci-theme-argon.git ./tmp
-        mv ./tmp/* ./
+        git clone https://github.com/Jaykwok2999/istoreos-theme.git ./tmp
+        mv ./tmp/luci-theme-argon ./
         rm -rf ./tmp
         rm -rf luci-theme-argon/htdocs/luci-static/argon/icon
         cp -af .github/argon/icon luci-theme-argon/htdocs/luci-static/argon/
