@@ -31,7 +31,7 @@ jobs:
         
         
          
-        git clone https://github.com/sbwml/luci-theme-argon.git ./tmp
+        git clone https://github.com/sos801107/luci-theme-argon.git ./tmp
         mv ./tmp/luci-theme-argon ./
         rm -rf ./tmp
         rm -rf luci-theme-argon/htdocs/luci-static/argon/icon
