@@ -27,12 +27,12 @@ jobs:
     - name: Update
       run: |
 
-        rm -rf ./luci-theme-argon
+        rm -rf ./*
         
         
          
         git clone https://github.com/sos801107/luci-theme-argon.git ./tmp
-        mv ./tmp/luci-theme-argon ./
+        mv ./tmp/* ./
         rm -rf ./tmp
         rm -rf luci-theme-argon/htdocs/luci-static/argon/icon
         cp -af .github/argon/icon luci-theme-argon/htdocs/luci-static/argon/
